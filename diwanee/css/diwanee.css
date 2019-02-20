@@ -1,0 +1,344 @@
+* {
+font-family: "Myriad Pro";
+}
+
+
+h3 {
+font-weight:300;
+}
+
+a {
+text-decoration:none;
+}
+
+#header {
+position:relative;
+height:600px;
+background:url("../img/diwanee-serbia.png") no-repeat;
+background-size:100% 100%;
+}
+
+#header h1 {
+font-size:80px;
+margin:0;
+}
+
+#main-heading h2 {
+display:none;
+}
+
+#categories .block-33{
+height:200px;
+}
+.job-positions-list{
+list-style-type:none;
+display:block;
+text-align:left;
+padding:0;
+}
+.job-positions-list li{
+display:inline-block;
+width:22%;
+border:1px solid #ccc;
+text-align:center;
+}
+.job-positions-list li a{
+display:block;
+padding:5px;
+color:red;
+font-size:14px;
+}
+
+.group-box:hover{
+background:black;
+color:white;
+}
+
+.group-box:hover a{
+background:black;
+color:white;
+border:1px solid white;
+}
+
+.default-btn {
+padding:10px;
+line-height:30px;
+border:1px solid black;
+width:200px;
+display:block;
+margin:auto;
+color:#555;
+}
+
+.grey-btn {
+background:#eee;
+}
+
+#about-us {
+background:#fbfbfb;
+min-height:600px;
+}
+
+#about-us h1 {
+font-size:50px;
+font-weight:400;
+}
+
+#about-us p {
+font-size:19px;
+}
+
+
+#footer {
+background:#222222;
+min-height:300px;
+}
+
+#footer .block-100 p {
+color:#676767;
+text-align:left;
+margin-left:10px;
+}
+
+#footer-inner .block-33 {
+min-height:200px;
+}
+
+#copyright {
+background:black;
+color:#ccc;
+padding:20px;
+min-height:70px;
+}
+
+#menu ul {
+padding:0;
+margin:0;
+list-style-type:none;
+}
+
+#menu ul li {
+float:left;
+width:33.333%;
+}
+
+#menu ul li a{
+display:block;
+padding:10px;
+text-decoration:none;
+color:black;
+font-size:14px;
+}
+
+.small-line {
+width:50px;
+border:1px solid red;
+}
+
+.small-line-grey {
+width:50px;
+border:1px solid #ccc;
+}
+
+#categories h4 {
+margin-top:0;
+}
+
+#categories img {
+height:100px;
+}
+
+#categories .block-33 {
+height:400px;
+}
+
+#categories .block-33:hover {
+background:#ededed;
+}
+
+#categories p {
+font-size:16px;
+color:#999;
+padding:20px;
+}
+
+#more-jobs .default-btn {
+border:none;
+}
+
+.grey-text {
+color:#999;
+}
+
+#jobs h1 {
+font-size:50px;
+font-weight:400;
+margin:0;
+}
+
+#jobs h5 {
+font-weight:400;
+}
+
+#jobs p {
+font-size:22px;
+color:#999;
+}
+
+#footer .block-10, #footer .block-90 {
+height:25px;
+}
+
+#footer h5 {
+margin:0;
+color:white;
+line-height:25px;
+}
+
+#copyright p, #copyright a {
+margin:0;
+color:#676767;
+
+}
+
+#menu-mob {
+margin-top:5px;
+cursor:pointer;
+}
+
+#menu-mob div {
+width: 35px;
+height: 5px;
+background-color: black;
+margin: 6px 0;
+display:none;
+}
+
+#social-box {
+min-height:120px;
+}
+
+#menu-bottom-text {
+display:none;
+color:#676767;
+position:absolute;
+bottom:0;
+}
+
+#options {
+display:none;
+height:0;
+overflow:hidden;
+}
+
+@media screen and (max-width:960px){
+#menu {
+width:60%;
+}
+
+.job-positions-list li a {
+font-size:10px;
+}
+}
+
+@media screen and (max-width:760px){
+#categories .block-33, #main-heading, #jobs,.group-box .block-50 {
+width:100%;
+}
+
+
+#footer .block-33 {
+width:100%;
+}
+
+.mob-hide {
+display:none;
+}
+
+#options {
+width:100%;
+}
+
+
+
+#menu  {
+width:100%;
+position:absolute;
+height:450px;
+background:black;
+left:0;
+top:50px;
+padding-top:100px;
+display:none;
+}
+
+#menu-bottom-text {
+display:block;
+}
+
+#header {
+height:500px;
+}
+
+#header h1 {
+font-size:50px;
+}
+
+#about-us h1 {
+font-size:30px;
+}
+
+#main-heading h3 {
+display:none;
+}
+
+#main-heading h2 {
+display:block;
+}
+
+#categories img {
+margin-top:10px;
+}
+
+.group-box .center-block-80 {
+width:100%;
+}
+
+#copyright .block-50 {
+width:100%;
+}
+
+#menu-mob {
+float:right;
+}
+
+#menu-mob div{
+display:block;
+}
+
+
+
+#menu ul li {
+float:left;
+width:100%;
+}
+
+#menu ul li a{
+display:block;
+padding:20px;
+text-decoration:none;
+color:white;
+background:black;
+font-size:20px;
+}
+
+
+
+}
+
+@media screen and (max-width:480px){
+
+#social-box {
+width:40%;
+}
+}
